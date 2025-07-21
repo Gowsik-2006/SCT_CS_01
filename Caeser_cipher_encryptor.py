@@ -6,7 +6,7 @@ class CaesarCipherApp(ctk.CTk):
         self.title("CAESER CIPHER ENCRYPTION/DECRYTION TOOL")
         self.geometry("600x550")
         ctk.set_appearance_mode("Dark")  # Options: "Dark", "Light", "System"
-        ctk.set_default_color_theme("D:/Python materials/python practice/cc/nordic_theme.json")  # Options: "blue", "dark-blue", "green"
+        ctk.set_default_color_theme("nordic_theme.json")  # Options: "blue", "dark-blue", "green"(These three colors are default theme colors,you can also customize your own theme by adding your own json file as I did )
 
         # Title Label
         self.label_title = ctk.CTkLabel(self, text="CAESER CIPHER ENCRYPTION/DECRYPTION", font=("Bitcount Grid Single Light Open", 24,"bold"))
@@ -71,3 +71,5 @@ class CaesarCipherApp(ctk.CTk):
 if __name__ == "__main__":
     app = CaesarCipherApp()
     app.mainloop()
+
+# Written by: Gowsik Raja.S
